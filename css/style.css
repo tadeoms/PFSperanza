@@ -1,0 +1,240 @@
+/* Reset css */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+/* Reset css */
+html {
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Header */
+header img {
+    width: 25px;
+}
+/* Header */
+/* Index */
+.tsText {
+    margin: 2%;
+}
+#img1Ts {
+    width: 100%; 
+    height: 400px;
+}
+#img2Ts {
+    width:30% ; 
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: 1%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+#pTs {
+    margin-top: 2%;
+    width:100%; 
+    height: auto;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Index */
+/* Contacto */
+.mainC { 
+    background-color: #1e1e1e; 
+    color: white; 
+    margin: 2%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.formContacto h2 {
+    padding: 2%;
+    font-size: 20px;
+}
+.form {
+    width: 80%;
+    margin: 2%;
+    padding: 2%;
+}
+.inpEnviar {
+    float: right;
+    margin-right: 10%;
+}
+iframe {
+    width: 98%;
+    padding: 3%;
+}
+/* Contacto */
+
+.mainP,.mainSer, .mainSo { 
+    background-color: #1e1e1e; 
+    color: white; 
+    margin:2%;
+    padding: 3%;
+}
+.mainP h2 {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.mainP p {
+    margin: 3%;
+    line-height: 20px
+}
+.mainP img {
+    width: 95%;
+}
+.mainP div {
+    padding-bottom: 5%;
+}
+.mainSer {
+    line-height: 20px;
+    padding-bottom: 3%;
+}
+.mainSer h2 {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.mainSer p{
+    padding-bottom: 4%;
+}
+.mainSo {
+    line-height: 20px
+}
+#img1So {
+    width: 90%;
+    padding-left: 10%;
+}
+.mainSo h2{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+#img2So {
+    margin-top: 4%;
+    width: 50%;
+    height: auto;
+}
+button {
+    background-color: red;
+    margin-left: 70%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}  
+
+@media (min-width: 768px) {
+    .mainTs {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background-color: white;
+        padding: 2%;
+    }
+    .mainP {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainSer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 90%;  
+        justify-content: center;
+    }
+    .mainSer p {
+        margin-top: 4%;
+    }
+    .mainSer div {
+        margin: 2%;
+      
+    }
+    .mainSo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #img1So {
+        width: 80%;
+        padding-left: 10%;
+    }
+    #img2So {
+        margin-top: 0;
+        width: 60%;
+        padding-left: 10%;
+    }
+    button {
+        margin-left: 70%;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }  
+    .textSo {
+        padding-top: 10%;
+    }
+
+}
+@media (max-width: 768px) {
+    .mainC{
+        display: block;
+    }
+}
+
+
+/* Footer */
+footer {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 1% 1%;
+    width: 100%;
+    font-size: smaller;
+}
